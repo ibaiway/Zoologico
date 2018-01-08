@@ -8,5 +8,8 @@ public class Puercoespin extends Animal {
 		super.setEspecie(especie);
 		super.setPatas(patas);
 	}
+	public void mostrar(){
+		System.out.println("Soy un Puercoespin de la especie " + especie + " y tengo " + patas +" patas");
+	}
 
 }

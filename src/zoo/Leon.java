@@ -21,7 +21,9 @@ public class Leon extends Animal {
 		this.peso = peso;
 	}
 	
-	
+	public void mostrar(){
+		System.out.println("Soy un Leon peso " + peso + " kilos, mido " + altura);
+	}
 	
 	public double getPeso() {
 		return peso;

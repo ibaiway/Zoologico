@@ -13,6 +13,10 @@ public class Elefante extends Animal {
 		this.longitudTrompa = longitudTrompa;
 	}
 	
+	public void mostrar(){
+		System.out.println("Soy un elefante y mi trompa mide " + longitudTrompa);
+	}
+	
 	String getColor() {
 		return color;
 	}
